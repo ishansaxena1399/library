@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #14B8A6;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.add-book {
+    margin:0 auto;
+    display:block;
+    margin-top: 50px ;
+    background-color: #60A5FA;
+    color: white;
+    border-radius: 5%;
+    border: none;
+}
+
+.add-book:hover {
+    background-color: #4F46E5;
+
+}
+
+#new-book {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: #99F6E4;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+  
+
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
+.add, .read_btn, .del_btn {
+    width: 80%;
+    background-color: #BEF264;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.add:hover, .read_btn:hover, .del_btn:hover {
+    background-color: #EAB308;
+}
+
+
+
+.card-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,250px));
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.card {
+
+    height: 300px;
+    background-color: #FAF0E4;
+    border-radius: 10px;
+    text-align: center;
+}
